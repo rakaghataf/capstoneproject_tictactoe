@@ -1,0 +1,105 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-color: #ffc246;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+  
+h1 {
+    margin: 0;
+}
+  
+section {
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+#hero, #instructions, #game-board, #scoreboard, #creator {
+    text-align: center;
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+  
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.player-x {
+    color: red;
+    font-weight: bold;
+}
+
+.player-o {
+    color: blue;
+    font-weight: bold;
+}
+
+#scores {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+  
+button {
+    background-color: #ffc246;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #c73408;
+}
+  
+#scores {
+    margin-top: 20px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+#scores p {
+    margin: 5px 0;
+}
+
+.reset-btn {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #fff;
+    background-color: #ffc246;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
