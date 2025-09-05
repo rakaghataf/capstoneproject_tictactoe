@@ -20,7 +20,7 @@ Game ini hadir dengan tampilan modern serta dilengkapi fitur scoreboard untuk me
 - ⚡ Interaktif: Game langsung dapat dimainkan tanpa instalasi tambahan.
 
 🤖 AI Support
-Proyek ini dibuat dengan bantuan AI IBM Granite 3.3 8B Instruct yang bantu memberikan arahan struktur kode dasar HTML, CSS, dan JavaScript serta menyediakan saran untuk perbaikan dan pengembangan fitur permainan.
+- Proyek ini dibuat dengan bantuan AI IBM Granite 3.3 8B Instruct yang bantu memberikan arahan struktur kode dasar HTML, CSS, dan JavaScript serta menyediakan saran untuk perbaikan dan pengembangan fitur permainan.
 
 ⚠️ Catatan
 Proyek ini masih dalam tahap pengembangan. Jika terdapat kekurangan dalam permainan, harap dapat dipahami karena proyek ini dibuat untuk tujuan pembelajaran.
